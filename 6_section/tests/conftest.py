@@ -1,0 +1,46 @@
+# import pytest
+# from playwright.async_api import BrowserType
+# from typing import Dict
+
+# # @pytest.fixture(scope="session")
+# # def browser_context_arg(browser_context_args):
+# #     return {
+# #         **browser_context_args,
+# #         "ignore_https_errors": True
+# #     }
+
+# # @pytest.fixture(scope="session")
+# # def browser_context_args(browser_context_args):
+# #     return {
+# #         **browser_context_args,
+# #         "viewport": {"white":400, 
+# #                      "height":400
+# #                      }
+                     
+# #             }
+   
+
+# # @pytest.fixture(scope="session")
+# # def browser_context_args(browser_context_args, playwright):
+# #     iphon_11 = playwright.devices("iPhone 11 Pro")
+# #     return {
+# #         **browser_context_args,
+# #         **iphon_11, 
+# #             }
+
+# @pytest.fixture(scope="session")
+# def context(
+#     browser_type: BrowserType,
+#     browser_type_launch_args: Dict,
+#     browser_context_args: Dict,
+#     ):
+#     context = browser_type.launch_persistent_context(
+#         "./6_section",
+#         **{
+#             **browser_type_launch_args, 
+#             **browser_context_args, 
+#             "locale" : "de-DE"
+#         }
+#     )
+#     yield context
+#     context.close()

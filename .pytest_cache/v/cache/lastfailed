@@ -1,0 +1,7 @@
+{
+  "tests/test_login.py::test_login": true,
+  "tests/test_unit.py::MyTest::test_foobar": true,
+  "7_section/tests/test_api.py::test_bug_report": true,
+  "7_section/tests/test_api.py::test_feature": true,
+  "7_section/tests/test_api.py::test_create_repo": true
+}

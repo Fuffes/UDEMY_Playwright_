@@ -1,0 +1,11 @@
+[
+  "7_section/tests/test_api.py::test_bug_report",
+  "7_section/tests/test_api.py::test_create_repo",
+  "7_section/tests/test_api.py::test_feature",
+  "7_section/tests/test_debug.py::test_page[chromium]",
+  "tests/test_bing.py::test_bing[chromium]",
+  "tests/test_login.py::test_login",
+  "tests/test_login.py::test_login[chromium]",
+  "tests/test_unit.py::MyTest::test_foobar",
+  "tests/test_unit.py::test_foobar[chromium]"
+]
