@@ -3,6 +3,8 @@
   "7_section/tests/test_api.py::test_create_repo",
   "7_section/tests/test_api.py::test_feature",
   "7_section/tests/test_debug.py::test_page[chromium]",
+  "8_section/test_inputs.py::test_facebook",
+  "8_section/test_inputs.py::test_facebook[chromium]",
   "tests/test_bing.py::test_bing[chromium]",
   "tests/test_login.py::test_login",
   "tests/test_login.py::test_login[chromium]",
